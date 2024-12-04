@@ -56,7 +56,7 @@ def editarpet():
             queryBanco.execute(valoresalterados)
             queryBanco.commit()
         case _:
-            print("O seu nigga so tem 3 numeros")
+            print("Opcao nao existente")
 
 def exibirtabela():
     tabelaescolhida = input("Qual tabela voce quer exibir: ")
