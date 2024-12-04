@@ -4,7 +4,7 @@
 import pyodbc
 
 try:
-
+#Server da escola: localhost
     conexao = pyodbc.connect("DRIVER={SQL server}; SERVER='+FREITAS+';DATABASE='+petshop+';UID='+sa+';PWD='+*123456HAS*")
 
     queryBanco = conexao.cursor()
